@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+
+    <item
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_filter_by_title"
+                    android:checked="true"
+                    android:title="@string/filter_by_title" />
+
+                <item
+                    android:id="@+id/action_filter_by_creation_date"
+                    android:checked="false"
+                    android:title="@string/filter_by_creation_date" />
+
+                <item
+                    android:id="@+id/action_filter_by_last_modified_date"
+                    android:checked="false"
+                    android:title="@string/filter_by_last_modified_date" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_hide_completed_notes"
+        android:checkable="true"
+        android:title="@string/hide_completed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_all_completed_notes"
+        android:title="@string/delete_completed"
+        app:showAsAction="never" />
+</menu>

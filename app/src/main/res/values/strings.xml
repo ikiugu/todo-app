@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="search">Search</string>
+    <string name="search_field_hint">Search in notes</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by_title">Filter By Title</string>
+    <string name="filter_by_creation_date">Filter By Creation Date</string>
+    <string name="filter_by_last_modified_date">Filter By Last Modified Date</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="hide_completed">Hide completed</string>
+    <string name="created">Created:</string>
+    <string name="updated">Updated:</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="delete_completed">Delete all completed</string>
+    <string name="complete">Complete</string>
+    <string name="lorem_dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        accumsan nec risus non rutrum. Praesent ut leo sit amet nunc consequat tempor a a nisi.
+        Nulla sed erat a justo viverra aliquam eget in tellus. Ut ut turpis dignissim, scelerisque
+        erat non, pellentesque ex. Mauris consectetur imperdiet justo. Nulla erat ante, consectetur
+        at dignissim eu, accumsan non leo. Vestibulum tempor lobortis sapien.
+        Fusce urna eros, maximus nec rhoncus vel, tempus eget turpis. Mauris sit amet nisi sed
+        metus placerat viverra. Donec sagittis urna ac tellus imperdiet tempor. Sed molestie
+        convallis tincidunt. Morbi ac ex fringilla, convallis libero nec, tincidunt lacus.</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="image_url">Image Url</string>
+</resources>
